@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Styling */
+body,
+html {
+	font-family: 'Raleway', sans-serif;
+	background: #f3f4f6;
+	color: #7a797d;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+
+h1,
+h2,
+h4 {
+	margin-bottom: 15px;
+	color: #000;
+	font-weight: 800;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.txt-large {
+	font-size: 20px;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.display-1 {
+	font-size: 3rem;
+}
+
+.current {
+	text-decoration: underline;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 45px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+.btn-outline {
+	border: 1px solid #1f2038;
+	color: #1f2038;
+}
+
+.btn-outline:hover {
+	background: #1f2038;
+	color: #fff;
+}
+
+.p-1 {
+	padding: 80px;
+}
+
+.ptb-1 {
+	padding: 150px 0;
+}
+
+.ptb-2 {
+	padding: 200px 0;
+}
+
+.pb-1 {
+	padding-bottom: 50px;
+}
+
+.pr-1 {
+	padding-right: 40px;
+}
+
+.bk-showcase {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bk-color {
+	background: #f3f4f6;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-box {
+	flex: 1;
+}
+
+/* Navbar */
+.navbar {
+	height: 90px;
+	/* height: 10vh; */
+}
+
+.navbar .logo a {
+	color: #7a797d;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar ul li {
+	margin-left: 20px;
+}
+
+.navbar ul li a {
+	color: #7a797d;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+/* Showcase */
+#showcase .container {
+	padding-top: 450px;
+}
+
+/* Work */
+#work img {
+	height: 450px;
+}
+
+/* Footer */
+#mainfooter {
+	background: #cccad1;
+	text-align: center;
+	padding: 60px;
+}
