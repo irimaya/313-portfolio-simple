@@ -11,10 +11,6 @@
 	padding: 80px 0;
 }
 
-.ptb-2 {
-	padding: 200px 0;
-}
-
 .pr-1 {
 	padding-right: 0;
 }
@@ -23,21 +19,6 @@
 	flex-direction: column;
 }
 
-/* Navbar */
-#navbar {
-	height: 100%;
-	padding: 20px 0;
-}
-
-#navbar .container {
-	flex-direction: column;
-}
-
-/* About */
-#about {
-	text-align: center;
-}
-
-#about img {
-	padding-top: 20px;
+.flex-box {
+	flex: 1;
 }
